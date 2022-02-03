@@ -1,0 +1,1 @@
+### Commands for running the local servers can be found in the package.json file of the respective folder.
