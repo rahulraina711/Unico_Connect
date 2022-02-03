@@ -1,0 +1,16 @@
+.error-message{
+    background: rgb(236, 93, 93);
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    width: 25%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media only screen and ( max-width : 900px ){
+    .error-message{
+        width: 80%;
+    }
+}

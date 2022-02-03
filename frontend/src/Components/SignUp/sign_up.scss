@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.sign-up-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    // justify-content: center;
+    
+}
+
+.selector-container{
+    width: 70%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        padding: 10px 15px;
+        font-family: 'Supermercado One', cursive;
+        font-size: 2rem;
+    }
+}
+
+.full-name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit{
+    
+    width: 21%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    #action-button{
+        padding: 15px 15px;
+        border: 1px solid rgb(129, 189, 69);
+        &:hover{
+            background: rgb(129, 189, 69);
+        }
+    }
+
+    #f-pass{
+        padding: 15px 10px;
+        
+    }
+
+}
+
+input{
+    width: 20%;
+    font-size: large;
+    padding: 5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0px;
+}
+
+error{
+    background: rgb(247, 165, 165);
+}
+
+.hoverable{
+    transition: all ease-in 0.15s;
+    &:hover{
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: rgb(160, 156, 156);
+    }
+}
+
+.selected{
+    color: rgb(117, 117, 248);
+}
+
+@media only screen and ( max-width : 900px ){
+    .sign-up-main{
+        height: 100vh;
+        justify-content: center;
+    }
+    .selector-container{
+        width: 100%;
+    }
+    .submit{
+        width: 70%;
+    }
+}

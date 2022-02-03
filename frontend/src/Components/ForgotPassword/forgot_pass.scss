@@ -1,0 +1,18 @@
+.forgot-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cancel{
+    text-align: center;
+}
+
+@media only screen and ( max-width : 900px ){
+    .forgot-main{
+        height: 100vh;
+    }
+}
