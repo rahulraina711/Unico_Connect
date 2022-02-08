@@ -16,8 +16,8 @@ router.post('/profile', async (req, res, next) => {
         }
 
         const s3 = new AWS.S3({
-            accessKeyId : "AKIAY25H6W4SCKQ55WYB",
-            secretAccessKey : "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",
+            accessKeyId : "",
+            secretAccessKey : "",
             apiVersion : '2006-03-01'            
         });
 
